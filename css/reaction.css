@@ -1,0 +1,48 @@
+.bslb-reaction {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bslb-like-button {
+    background: transparent;
+    border: 2px solid #000;
+    border-radius: .4em;
+    padding: .4em 1em;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+.bslb-like-button:hover {
+    border-color: #000;
+}
+
+.bslb-like-icon {
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.bslb-support-link {
+    display: inline-block;
+    border: 2px solid #000;
+    border-radius: .4em;
+    padding: .4em 1em;
+    text-decoration: none;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.bslb-support-link:hover {
+    border-color: #000;
+}
+
+/* 动态效果：点赞按钮心形图标 pulse 效果 */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+.pulse {
+  animation: pulse 0.5s ease-in-out;
+}

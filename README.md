@@ -1,4 +1,4 @@
-** 本文修改了 [第三夏尔](https://thirdshire.com/hugo-stack-renovation-part-three/)、[Booooom](https://zhuzi.dev/posts/2025-01-12-open-heart/) 和 [benji](https://www.benji.dog/articles/interactions-or-reactions/) 的 Hugo 插件代码，修改为 WordPress 插件：[DayuGuo/bear-style-like-button](https://github.com/DayuGuo/bear-style-like-button)。
+** 本文基于 [第三夏尔](https://thirdshire.com/hugo-stack-renovation-part-three/)、[Booooom](https://zhuzi.dev/posts/2025-01-12-open-heart/) 和 [benji](https://www.benji.dog/articles/interactions-or-reactions/) 的 Hugo 插件代码，修改为 WordPress 插件：[DayuGuo/bear-style-like-button](https://github.com/DayuGuo/bear-style-like-button)。
 
 ## 功能
 在 WordPress 的文章类型页面下方添加两个按钮：「点赞」和「支持」。

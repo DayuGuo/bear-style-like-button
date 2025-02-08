@@ -9,6 +9,9 @@
 效果见本文下方，大家可以试试。
 
 ## 安装
-本插件可在 Github 中 下载：[DayuGuo/bear-style-like-button](https://github.com/DayuGuo/bear-style-like-button) ，并在 WordPress 后台上传安装。
+本插件可在 Github 中 下载，并在 WordPress 后台上传安装。
 
 如有任何疑问可在评论区留言。
+
+
+更多文章见：https://anotherdayu.com/

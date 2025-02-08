@@ -12,6 +12,8 @@ jQuery(document).ready(function($) {
                 $btn.find('.bslb-like-count').text(response.data.likes);
                 var $icon = $btn.find('.bslb-like-icon');
                 $icon.addClass('pulse');
+                // 添加 "liked" 类到 SVG 元素
+                $btn.find('.bslb-like-svg').addClass('liked');
                 setTimeout(function(){
                     $icon.removeClass('pulse');
                 }, 500);

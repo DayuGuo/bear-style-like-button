@@ -36,8 +36,13 @@ function bslb_append_reaction($content) {
         ?>
         <div class="bslb-reaction">
             <button class="bslb-like-button" data-postid="<?php the_ID(); ?>">
-                <span class="bslb-like-icon">❤️</span>
-                <span class="bslb-like-count"><?php echo $likes; ?></span>
+                <span class="bslb-like-icon">
+                    <svg class="bslb-like-svg" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                        <polyline points="18 9 12 3 6 9"></polyline>
+                    </svg>
+                    <span class="bslb-like-count"><?php echo $likes; ?></span>
+                </span>
             </button>
             <a href="<?php echo $support_url; ?>" class="bslb-support-link">支持</a>
         </div>

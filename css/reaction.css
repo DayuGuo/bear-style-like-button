@@ -1,48 +1,68 @@
 .bslb-reaction {
     text-align: center;
     margin: 20px 0;
-}
-
-.bslb-like-button {
+    }
+    
+    .bslb-like-button {
     background: transparent;
-    border: 2px solid #000;
+    border: 2px solid transparent;
     border-radius: .4em;
     padding: .4em 1em;
     font-size: 16px;
     cursor: pointer;
     margin-right: 10px;
     transition: border-color 0.3s;
-}
-
-.bslb-like-button:hover {
-    border-color: #000;
-}
-
-.bslb-like-icon {
+    }
+    
+    .bslb-like-button:hover {
+    border-color: transparent;
+    }
+    
+    .bslb-like-icon {
     margin-right: 5px;
     display: inline-block;
-}
-
-.bslb-support-link {
+    }
+    
+    /* 动态效果：点赞按钮 pulse 动画 */
+    @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+    .pulse {
+    animation: pulse 0.5s ease-in-out;
+    }
+    
+    /* 点赞后 SVG 变红 */
+    .bslb-like-svg.liked {
+    stroke: red;
+    }
+    
+    /* 点赞后，点赞计数变成红色 */
+    .bslb-like-count.liked {
+    color: red;
+    }
+    
+    .bslb-support-link {
     display: inline-block;
-    border: 2px solid #000;
+    border: 2px solid transparent;
     border-radius: .4em;
     padding: .4em 1em;
     text-decoration: none;
     color: #333;
     transition: border-color 0.3s;
-}
-
-.bslb-support-link:hover {
-    border-color: #000;
-}
-
-/* 动态效果：点赞按钮心形图标 pulse 效果 */
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  100% { transform: scale(1); }
-}
-.pulse {
-  animation: pulse 0.5s ease-in-out;
-}
+    }
+    
+    .bslb-support-link:hover {
+    border-color: transparent;
+    }
+    
+    /* 动态效果：点赞按钮心形图标 pulse 效果 */
+    @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+    .pulse {
+    animation: pulse 0.5s ease-in-out;
+    }
